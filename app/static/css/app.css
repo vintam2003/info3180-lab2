@@ -1,3 +1,42 @@
 body {
     padding-top: 5rem;
 }
+.profile-card {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.username {
+    color: gray;
+}
+
+.bio {
+    margin: 15px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.follow-btn {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
